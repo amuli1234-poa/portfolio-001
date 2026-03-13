@@ -1,0 +1,139 @@
+:root{
+--padding-horizontal: 100px;
+    --primary-color: #4C234B;
+    --secondary-color: maroon;
+}
+body{
+    margin: 0;
+     font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding-left: var(--padding-horizontal);
+ padding-right: var(--padding-horizontal);
+
+}
+
+nav > h1{
+    color: white;
+}
+nav > div >a{
+color: whitesmoke;
+    text-decoration: none;
+    margin-right: 40px;
+}
+/* section bar*/
+
+#homeSection{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+      padding-left: var(--padding-horizontal);
+ padding-right: var(--padding-horizontal);
+    height: 80vh;
+}
+#homeSection > div > h1{
+color: midnightblue;
+    font-size: xx-large;
+
+
+}
+
+#homeSection > div > p{
+    color: darkolivegreen;
+    font-size: x-large;
+font-weight: 300;
+
+}
+
+
+#homeSection > div >button{
+   all: unset;
+    background-color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 50px;
+    color: white;
+}
+
+#homeSection > div >button:hover{
+   all: unset;
+    background-color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 50px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#homeSection > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+/* projects bar */
+#projects > div{
+    text-align: center;
+}
+#projects > div >h1{
+   color: midnightblue;
+    font-size: xx-large;
+    font-weight: 300;
+}
+#projects > div >p{
+    color: darkolivegreen;
+    font-weight: 300;
+}
+
+#projects > #f2 > #f1{
+width: 280px;
+    height: 380px;
+        padding-left: var(--padding-horizontal);
+ padding-right: 80px;
+    padding-bottom: 180px;
+    padding-top: 40px;
+    background-color: bisque;
+    border-radius: 50px;
+    text-align: start;
+
+}
+/* button*/
+#projects > #f2 > #f1 > button{
+      all: unset;
+    background-color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 50px;
+    color: white;
+}
+#projects > #f2 > #f1 > button:hover{
+      all: unset;
+    background-color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 50px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+#projects > #f2 > #f1 > img{
+    border-radius: 40px;
+}
+#projects > #f2{
+    display: flex;
+    align-content: center;
+    gap: 40px;
+    padding-right: var(--padding-horizontal);
+    padding-left: var(--padding-horizontal);
+
+}
+#projects > #f2 > #f1 >p{
+    font-weight: 300;
+    color: darkolivegreen;
+
+}
+#projects > #f2 > #f1 >h2{
+    color: darkslateblue;
+}
